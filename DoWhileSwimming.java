@@ -1,3 +1,4 @@
+
 /*
  * Author: Keon Hee Park
  * Assignment: http://programmingbydoing.com/a/do-while-swimming.html
@@ -9,10 +10,8 @@ import java.util.Scanner;
 public class DoWhileSwimming {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-
-		final String[] swimmer = new String[] { "GALLANT", "GOOFUS"};
+		final String[] swimmer = new String[] { "GALLANT", "GOOFUS" };
 		final double minimumTemperature = 79.0;
-
 		int swimTime = 0;
 		boolean swimmerDone = false;
 		boolean status = false;
@@ -20,7 +19,6 @@ public class DoWhileSwimming {
 		System.out.print("What is the current water temperature? ");
 		double currentTemperature = sc.nextDouble();
 		double initialTemperature = currentTemperature;
-
 		int i = 0;
 		boolean resetFirstTime = false;
 		do {
