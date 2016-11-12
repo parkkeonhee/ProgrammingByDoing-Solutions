@@ -1,3 +1,10 @@
+
+/*
+ * Author: Keon Hee Park
+ * Assignment: http://programmingbydoing.com/a/flip-again.html
+ * Completed: November 12, 2016
+ */
+
 import java.util.Random;
 import java.util.Scanner;
 
