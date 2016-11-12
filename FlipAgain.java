@@ -29,8 +29,8 @@ public class FlipAgain {
 			response = sc.nextLine();
 		} while (response.equalsIgnoreCase("y"));
 		sc.close();
-
+		int totalCoinFlips = numberOfHeads + numberOfTails;
 		System.out.println("There were " + numberOfHeads + " heads, " + numberOfTails + " tails, and total of "
-				+ (numberOfTails + numberOfHeads) + " coin flips.");
+				+ (totalCoinFlips) + " coin flips.");
 	}
 }
