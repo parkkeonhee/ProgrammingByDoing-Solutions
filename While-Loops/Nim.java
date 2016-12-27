@@ -38,7 +38,6 @@ public class Nim {
 		boolean finished = false;
 
 		while (!finished) {
-
 			if (playerCounter % 2 != 0) {
 				System.out.print("\n\n" + playerOne + ", choose a pile: ");
 				currentPlayer = playerOne;
