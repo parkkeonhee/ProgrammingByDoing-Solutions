@@ -2,7 +2,7 @@
 /*
  * Author: Keon Hee Park
  * Assignment: http://programmingbydoing.com/a/sorting-an-arraylist-of-strings.html
- * Completed: December 30, 2016
+ * Completed: December 31, 2016
  */
 
 import java.util.ArrayList;
